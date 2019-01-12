@@ -11,6 +11,8 @@ from test import test
 from shared_optim import SharedRMSprop, SharedAdam
 import time
 
+# see logs for the used settings for the run
+
 
 parser = argparse.ArgumentParser(description='A3C')
 parser.add_argument(

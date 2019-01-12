@@ -3,7 +3,8 @@ import gym
 import numpy as np
 from collections import deque
 from gym import spaces
-
+import quanser_robots
+quanser_robots
 
 def create_env(env_id, args):
     env = gym.make(env_id)
@@ -16,13 +17,15 @@ class frame_stack(gym.Wrapper):
         super(frame_stack, self).__init__(env)
         self.stack_frames = args.stack_frames
         self.frames = deque([], maxlen=self.stack_frames)
-        self.obs_norm = MaxMinFilter() #NormalizedEnv() alternative or can just not normalize observations as environment is already kinda normalized
-
+        #self.obs_norm = MaxMinFilter() #NormalizedEnv() alternative or can just not normalize observations as environment is already kinda normalized
+        #self.obs_norm = NormalizedEnv() #alternative or can just not normalize observations as environment is already kinda normalized
+        self.obs_norm = None
 
     def reset(self):
         ob = self.env.reset()
         ob = np.float32(ob)
-        ob = self.obs_norm(ob)
+        if self.obs_norm is not None:
+            ob = self.obs_norm(ob)
         for _ in range(self.stack_frames):
             self.frames.append(ob)
         return self.observation()
@@ -30,7 +33,8 @@ class frame_stack(gym.Wrapper):
     def step(self, action):
         ob, rew, done, info = self.env.step(action)
         ob = np.float32(ob)
-        ob = self.obs_norm(ob)
+        if self.obs_norm is not None:
+            ob = self.obs_norm(ob)
         self.frames.append(ob)
         return self.observation(), rew, done, info
 

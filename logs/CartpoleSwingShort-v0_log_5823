@@ -1,0 +1,201 @@
+2019-01-12 16:41:40,432 : lr: 0.0001
+2019-01-12 16:41:40,432 : gamma: 0.99
+2019-01-12 16:41:40,432 : tau: 1.0
+2019-01-12 16:41:40,433 : seed: 1
+2019-01-12 16:41:40,433 : workers: 8
+2019-01-12 16:41:40,433 : num_steps: 20
+2019-01-12 16:41:40,433 : max_episode_length: 10000
+2019-01-12 16:41:40,433 : env: CartpoleSwingShort-v0
+2019-01-12 16:41:40,433 : shared_optimizer: True
+2019-01-12 16:41:40,433 : load: False
+2019-01-12 16:41:40,433 : save_max: True
+2019-01-12 16:41:40,433 : optimizer: Adam
+2019-01-12 16:41:40,434 : load_model_dir: trained_models/
+2019-01-12 16:41:40,434 : save_model_dir: trained_models/
+2019-01-12 16:41:40,434 : log_dir: logs/
+2019-01-12 16:41:40,434 : model: MLP
+2019-01-12 16:41:40,434 : stack_frames: 1
+2019-01-12 16:41:40,434 : gpu_ids: [-1]
+2019-01-12 16:41:40,434 : amsgrad: True
+2019-01-12 16:41:50,004 : Time 00h 00m 09s, episode reward 0.14601391553878784, episode length 10000, reward mean 0.1460
+2019-01-12 16:42:59,140 : Time 00h 01m 18s, episode reward 450.2097090482712, episode length 10000, reward mean 225.1779
+2019-01-12 16:44:03,336 : Time 00h 02m 22s, episode reward 0.5922034978866577, episode length 4720, reward mean 150.3160
+2019-01-12 16:45:07,878 : Time 00h 03m 27s, episode reward 0.42110300064086914, episode length 4622, reward mean 112.8423
+2019-01-12 16:46:16,822 : Time 00h 04m 36s, episode reward 0.33330971002578735, episode length 10000, reward mean 90.3405
+2019-01-12 16:47:25,031 : Time 00h 05m 44s, episode reward 1.3326107263565063, episode length 8266, reward mean 75.5058
+2019-01-12 16:48:33,949 : Time 00h 06m 53s, episode reward 1390.8382582068443, episode length 10000, reward mean 263.4105
+2019-01-12 16:49:44,805 : Time 00h 08m 04s, episode reward 1380.9354872107506, episode length 10000, reward mean 403.1011
+2019-01-12 16:50:49,639 : Time 00h 09m 08s, episode reward 8.308838188648224, episode length 4345, reward mean 359.2353
+2019-01-12 16:51:59,772 : Time 00h 10m 19s, episode reward 162.98508667945862, episode length 10000, reward mean 339.6103
+2019-01-12 16:53:10,160 : Time 00h 11m 29s, episode reward 1799.1873772144318, episode length 10000, reward mean 472.2991
+2019-01-12 16:54:12,747 : Time 00h 12m 32s, episode reward 1.523179531097412, episode length 2495, reward mean 433.0678
+2019-01-12 16:55:21,908 : Time 00h 13m 41s, episode reward 1257.5052618980408, episode length 10000, reward mean 496.4860
+2019-01-12 16:56:31,414 : Time 00h 14m 50s, episode reward 1463.394705325365, episode length 10000, reward mean 565.5509
+2019-01-12 16:57:40,890 : Time 00h 16m 00s, episode reward 2078.2769172787666, episode length 10000, reward mean 666.3993
+2019-01-12 16:58:50,280 : Time 00h 17m 09s, episode reward 866.6756182909012, episode length 10000, reward mean 678.9166
+2019-01-12 17:00:00,573 : Time 00h 18m 19s, episode reward 1625.3489773571491, episode length 10000, reward mean 734.5891
+2019-01-12 17:01:11,220 : Time 00h 19m 30s, episode reward 1772.5604437887669, episode length 10000, reward mean 792.2542
+2019-01-12 17:02:20,274 : Time 00h 20m 39s, episode reward 1789.3359347581863, episode length 10000, reward mean 844.7322
+2019-01-12 17:03:29,228 : Time 00h 21m 48s, episode reward 1399.5845842659473, episode length 10000, reward mean 872.4748
+2019-01-12 17:04:38,527 : Time 00h 22m 57s, episode reward 2268.148423284292, episode length 10000, reward mean 938.9354
+2019-01-12 17:05:40,959 : Time 00h 24m 00s, episode reward 2.791556715965271, episode length 2710, reward mean 896.3834
+2019-01-12 17:06:43,634 : Time 00h 25m 02s, episode reward 2.1573261618614197, episode length 2909, reward mean 857.5040
+2019-01-12 17:07:51,585 : Time 00h 26m 10s, episode reward 1729.7628728151321, episode length 10000, reward mean 893.8482
+2019-01-12 17:09:00,904 : Time 00h 27m 20s, episode reward 2358.77065461874, episode length 10000, reward mean 952.4451
+2019-01-12 17:10:09,457 : Time 00h 28m 28s, episode reward 2056.8076278418303, episode length 10000, reward mean 994.9205
+2019-01-12 17:11:16,500 : Time 00h 29m 35s, episode reward 497.8505837023258, episode length 8328, reward mean 976.5105
+2019-01-12 17:12:27,048 : Time 00h 30m 46s, episode reward 2561.820447668433, episode length 10000, reward mean 1033.1288
+2019-01-12 17:13:36,235 : Time 00h 31m 55s, episode reward 2930.7944062948227, episode length 10000, reward mean 1098.5655
+2019-01-12 17:14:46,026 : Time 00h 33m 05s, episode reward 2596.178550466895, episode length 10000, reward mean 1148.4859
+2019-01-12 17:15:56,243 : Time 00h 34m 15s, episode reward 2374.8392738848925, episode length 10000, reward mean 1188.0457
+2019-01-12 17:17:05,289 : Time 00h 35m 24s, episode reward 3365.609712149948, episode length 10000, reward mean 1256.0946
+2019-01-12 17:18:14,780 : Time 00h 36m 34s, episode reward 2840.5348211675882, episode length 10000, reward mean 1304.1079
+2019-01-12 17:19:24,450 : Time 00h 37m 43s, episode reward 3734.722655169666, episode length 10000, reward mean 1375.5966
+2019-01-12 17:20:34,837 : Time 00h 38m 54s, episode reward 3241.712134361267, episode length 10000, reward mean 1428.9142
+2019-01-12 17:21:43,771 : Time 00h 40m 03s, episode reward 3368.850013703108, episode length 10000, reward mean 1482.8013
+2019-01-12 17:22:55,383 : Time 00h 41m 14s, episode reward 3671.0489379279315, episode length 10000, reward mean 1541.9431
+2019-01-12 17:24:04,359 : Time 00h 42m 23s, episode reward 3670.9813273201207, episode length 10000, reward mean 1597.9704
+2019-01-12 17:25:13,782 : Time 00h 43m 33s, episode reward 3672.035494340089, episode length 10000, reward mean 1651.1516
+2019-01-12 17:26:22,638 : Time 00h 44m 41s, episode reward 4138.920220995322, episode length 10000, reward mean 1713.3458
+2019-01-12 17:27:31,283 : Time 00h 45m 50s, episode reward 4233.085786118361, episode length 10000, reward mean 1774.8029
+2019-01-12 17:28:40,155 : Time 00h 46m 59s, episode reward 3730.0307473061475, episode length 10000, reward mean 1821.3559
+2019-01-12 17:29:49,505 : Time 00h 48m 08s, episode reward 3619.691217773373, episode length 10000, reward mean 1863.1777
+2019-01-12 17:30:58,764 : Time 00h 49m 18s, episode reward 3678.328564534866, episode length 10000, reward mean 1904.4311
+2019-01-12 17:32:09,112 : Time 00h 50m 28s, episode reward 4329.0183300474855, episode length 10000, reward mean 1958.3108
+2019-01-12 17:33:19,474 : Time 00h 51m 38s, episode reward 4490.501045638957, episode length 10000, reward mean 2013.3584
+2019-01-12 17:34:28,270 : Time 00h 52m 47s, episode reward 4557.999800500213, episode length 10000, reward mean 2067.4997
+2019-01-12 17:35:30,342 : Time 00h 53m 49s, episode reward 2.981352210044861, episode length 1922, reward mean 2024.4889
+2019-01-12 17:36:39,561 : Time 00h 54m 58s, episode reward 4485.032614421623, episode length 10000, reward mean 2074.7041
+2019-01-12 17:37:46,696 : Time 00h 56m 06s, episode reward 4451.441183159919, episode length 10000, reward mean 2122.2389
+2019-01-12 17:38:55,712 : Time 00h 57m 15s, episode reward 4663.007824705586, episode length 10000, reward mean 2172.0579
+2019-01-12 17:39:58,178 : Time 00h 58m 17s, episode reward 3.0869709849357605, episode length 2071, reward mean 2130.3469
+2019-01-12 17:41:07,882 : Time 00h 59m 27s, episode reward 4242.155990299106, episode length 10000, reward mean 2170.1923
+2019-01-12 17:42:10,134 : Time 01h 00m 29s, episode reward 5.896673738956451, episode length 2330, reward mean 2130.1128
+2019-01-12 17:43:11,891 : Time 01h 01m 31s, episode reward 2.0415928959846497, episode length 1697, reward mean 2091.4206
+2019-01-12 17:44:20,616 : Time 01h 02m 39s, episode reward 4089.398518241942, episode length 10000, reward mean 2127.0988
+2019-01-12 17:45:29,329 : Time 01h 03m 48s, episode reward 3759.210575107485, episode length 10000, reward mean 2155.7323
+2019-01-12 17:46:31,103 : Time 01h 04m 50s, episode reward 2.383626401424408, episode length 2042, reward mean 2118.6056
+2019-01-12 17:47:41,155 : Time 01h 06m 00s, episode reward 4280.112160636543, episode length 10000, reward mean 2155.2413
+2019-01-12 17:48:50,859 : Time 01h 07m 10s, episode reward 4301.895522924213, episode length 10000, reward mean 2191.0189
+2019-01-12 17:49:52,613 : Time 01h 08m 11s, episode reward 2.598759949207306, episode length 1770, reward mean 2155.1431
+2019-01-12 17:50:54,605 : Time 01h 09m 13s, episode reward 2.3039605617523193, episode length 1796, reward mean 2120.4199
+2019-01-12 17:52:04,090 : Time 01h 10m 23s, episode reward 3776.823172055185, episode length 10000, reward mean 2146.7120
+2019-01-12 17:53:13,008 : Time 01h 11m 32s, episode reward 3634.278977252776, episode length 10000, reward mean 2169.9553
+2019-01-12 17:54:14,845 : Time 01h 12m 34s, episode reward 4.15633499622345, episode length 2161, reward mean 2136.6353
+2019-01-12 17:55:16,597 : Time 01h 13m 35s, episode reward 2.4652798175811768, episode length 2074, reward mean 2104.2994
+2019-01-12 17:56:27,014 : Time 01h 14m 46s, episode reward 4629.002573476711, episode length 10000, reward mean 2141.9815
+2019-01-12 17:57:35,301 : Time 01h 15m 54s, episode reward 3975.509452484548, episode length 10000, reward mean 2168.9452
+2019-01-12 17:58:37,284 : Time 01h 16m 56s, episode reward 3.397029161453247, episode length 2143, reward mean 2137.5604
+2019-01-12 17:59:46,056 : Time 01h 18m 05s, episode reward 3607.0572659388617, episode length 10000, reward mean 2158.5532
+2019-01-12 18:00:47,984 : Time 01h 19m 07s, episode reward 3.563667595386505, episode length 2127, reward mean 2128.2013
+2019-01-12 18:01:57,000 : Time 01h 20m 16s, episode reward 4315.524760333356, episode length 10000, reward mean 2158.5807
+2019-01-12 18:03:08,173 : Time 01h 21m 27s, episode reward 4870.741955182544, episode length 10000, reward mean 2195.7336
+2019-01-12 18:04:16,925 : Time 01h 22m 36s, episode reward 4893.495939413577, episode length 10000, reward mean 2232.1899
+2019-01-12 18:05:26,094 : Time 01h 23m 45s, episode reward 4322.104626429726, episode length 10000, reward mean 2260.0554
+2019-01-12 18:06:35,918 : Time 01h 24m 55s, episode reward 4980.573351622428, episode length 10000, reward mean 2295.8517
+2019-01-12 18:07:45,825 : Time 01h 26m 05s, episode reward 5058.362509414554, episode length 10000, reward mean 2331.7285
+2019-01-12 18:08:54,057 : Time 01h 27m 13s, episode reward 4700.81962159282, episode length 10000, reward mean 2362.1014
+2019-01-12 18:10:02,663 : Time 01h 28m 22s, episode reward 4880.862904022913, episode length 10000, reward mean 2393.9845
+2019-01-12 18:11:04,708 : Time 01h 29m 24s, episode reward 2.3545339107513428, episode length 1965, reward mean 2364.0891
+2019-01-12 18:12:15,586 : Time 01h 30m 34s, episode reward 4884.226063305352, episode length 10000, reward mean 2395.2019
+2019-01-12 18:13:17,698 : Time 01h 31m 37s, episode reward 1.6442480087280273, episode length 1897, reward mean 2366.0122
+2019-01-12 18:14:26,563 : Time 01h 32m 45s, episode reward 4818.047855000168, episode length 10000, reward mean 2395.5548
+2019-01-12 18:15:35,518 : Time 01h 33m 54s, episode reward 5176.429637403002, episode length 10000, reward mean 2428.6604
+2019-01-12 18:16:37,735 : Time 01h 34m 57s, episode reward 2.3111239075660706, episode length 2288, reward mean 2400.1152
+2019-01-12 18:17:39,747 : Time 01h 35m 59s, episode reward 1.1218330264091492, episode length 2554, reward mean 2372.2199
+2019-01-12 18:18:49,763 : Time 01h 37m 09s, episode reward 4620.899816470694, episode length 10000, reward mean 2398.0668
+2019-01-12 18:19:59,750 : Time 01h 38m 19s, episode reward 5176.191320745442, episode length 10000, reward mean 2429.6364
+2019-01-12 18:21:08,256 : Time 01h 39m 27s, episode reward 5123.056983698705, episode length 10000, reward mean 2459.8995
+2019-01-12 18:22:10,066 : Time 01h 40m 29s, episode reward 1.8831096291542053, episode length 1834, reward mean 2432.5882
+2019-01-12 18:23:19,508 : Time 01h 41m 38s, episode reward 5058.221907696774, episode length 10000, reward mean 2461.4414
+2019-01-12 18:24:22,167 : Time 01h 42m 41s, episode reward 4.413017392158508, episode length 2163, reward mean 2434.7345
+2019-01-12 18:25:30,551 : Time 01h 43m 49s, episode reward 4998.73952666088, episode length 10000, reward mean 2462.3045
+2019-01-12 18:26:40,094 : Time 01h 44m 59s, episode reward 5010.688446386761, episode length 10000, reward mean 2489.4149
+2019-01-12 18:27:49,062 : Time 01h 46m 08s, episode reward 4968.167997831224, episode length 10000, reward mean 2515.5071
+2019-01-12 18:28:59,134 : Time 01h 47m 18s, episode reward 4830.896473919822, episode length 10000, reward mean 2539.6257
+2019-01-12 18:30:01,096 : Time 01h 48m 20s, episode reward 1.7092630863189697, episode length 1847, reward mean 2513.4616
+2019-01-12 18:31:08,696 : Time 01h 49m 28s, episode reward 4944.840549996556, episode length 10000, reward mean 2538.2716
+2019-01-12 18:32:16,915 : Time 01h 50m 36s, episode reward 4640.469691294464, episode length 10000, reward mean 2559.5059
+2019-01-12 18:33:27,025 : Time 01h 51m 46s, episode reward 5163.296936476952, episode length 10000, reward mean 2585.5439
+2019-01-12 18:34:28,786 : Time 01h 52m 48s, episode reward 2.0944226384162903, episode length 1832, reward mean 2559.9651
+2019-01-12 18:35:30,683 : Time 01h 53m 50s, episode reward 3.2467289566993713, episode length 2146, reward mean 2534.8993
+2019-01-12 18:36:39,687 : Time 01h 54m 59s, episode reward 4819.407740050403, episode length 10000, reward mean 2557.0790
+2019-01-12 18:37:50,606 : Time 01h 56m 09s, episode reward 4720.97997793516, episode length 10000, reward mean 2577.8857
+2019-01-12 18:39:00,017 : Time 01h 57m 19s, episode reward 4914.5797261051885, episode length 10000, reward mean 2600.1399
+2019-01-12 18:40:01,896 : Time 01h 58m 21s, episode reward 2.1606485247612, episode length 1779, reward mean 2575.6307
+2019-01-12 18:41:05,792 : Time 01h 59m 25s, episode reward 7.275325953960419, episode length 3480, reward mean 2551.6274
+2019-01-12 18:42:07,515 : Time 02h 00m 26s, episode reward 2.823468267917633, episode length 1777, reward mean 2528.0273
+2019-01-12 18:43:16,926 : Time 02h 01m 36s, episode reward 4218.419923872771, episode length 10000, reward mean 2543.5355
+2019-01-12 18:44:26,380 : Time 02h 02m 45s, episode reward 4699.204125414151, episode length 10000, reward mean 2563.1325
+2019-01-12 18:45:35,934 : Time 02h 03m 55s, episode reward 5165.888459428563, episode length 10000, reward mean 2586.5808
+2019-01-12 18:46:38,080 : Time 02h 04m 57s, episode reward 2.792828321456909, episode length 1820, reward mean 2563.5112
+2019-01-12 18:47:47,247 : Time 02h 06m 06s, episode reward 4414.165804630774, episode length 10000, reward mean 2579.8887
+2019-01-12 18:48:56,978 : Time 02h 07m 16s, episode reward 4697.313701217784, episode length 10000, reward mean 2598.4626
+2019-01-12 18:50:06,429 : Time 02h 08m 25s, episode reward 4624.736814857054, episode length 10000, reward mean 2616.0824
+2019-01-12 18:51:08,157 : Time 02h 09m 27s, episode reward 2.217837929725647, episode length 1759, reward mean 2593.5491
+2019-01-12 18:52:10,194 : Time 02h 10m 29s, episode reward 2.6466569304466248, episode length 1822, reward mean 2571.4046
+2019-01-12 18:53:20,325 : Time 02h 11m 39s, episode reward 4387.323958832272, episode length 10000, reward mean 2586.7938
+2019-01-12 18:54:29,937 : Time 02h 12m 49s, episode reward 4786.348726483095, episode length 10000, reward mean 2605.2774
+2019-01-12 18:55:38,474 : Time 02h 13m 57s, episode reward 4776.822740685075, episode length 10000, reward mean 2623.3736
+2019-01-12 18:56:40,174 : Time 02h 14m 59s, episode reward 2.3007927536964417, episode length 1923, reward mean 2601.7119
+2019-01-12 18:57:49,500 : Time 02h 16m 08s, episode reward 5044.172552955322, episode length 10000, reward mean 2621.7320
+2019-01-12 18:58:57,952 : Time 02h 17m 17s, episode reward 5115.026853337098, episode length 10000, reward mean 2642.0027
+2019-01-12 18:59:59,527 : Time 02h 18m 18s, episode reward 3.1268370151519775, episode length 1846, reward mean 2620.7215
+2019-01-12 19:01:08,137 : Time 02h 19m 27s, episode reward 4945.44091368575, episode length 10000, reward mean 2639.3192
+2019-01-12 19:02:11,054 : Time 02h 20m 30s, episode reward 3.800277531147003, episode length 3369, reward mean 2618.4024
+2019-01-12 19:03:20,815 : Time 02h 21m 40s, episode reward 4903.121338151475, episode length 10000, reward mean 2636.3923
+2019-01-12 19:04:22,264 : Time 02h 22m 41s, episode reward 1.8894647359848022, episode length 1717, reward mean 2615.8103
+2019-01-12 19:05:30,585 : Time 02h 23m 49s, episode reward 5166.420956144459, episode length 10000, reward mean 2635.5824
+2019-01-12 19:06:38,908 : Time 02h 24m 58s, episode reward 5292.901916228067, episode length 10000, reward mean 2656.0234
+2019-01-12 19:07:47,930 : Time 02h 26m 07s, episode reward 5230.571595207788, episode length 10000, reward mean 2675.6764
+2019-01-12 19:08:56,678 : Time 02h 27m 16s, episode reward 5071.5493087298655, episode length 10000, reward mean 2693.8270
+2019-01-12 19:10:04,303 : Time 02h 28m 23s, episode reward 5175.363139936198, episode length 10000, reward mean 2712.4851
+2019-01-12 19:11:13,767 : Time 02h 29m 33s, episode reward 5163.911695333518, episode length 10000, reward mean 2730.7793
+2019-01-12 19:12:21,818 : Time 02h 30m 41s, episode reward 5143.491382306449, episode length 10000, reward mean 2748.6513
+2019-01-12 19:13:29,956 : Time 02h 31m 49s, episode reward 5131.6756717540775, episode length 10000, reward mean 2766.1735
+2019-01-12 19:14:33,635 : Time 02h 32m 52s, episode reward 1.8071123361587524, episode length 3035, reward mean 2745.9957
+2019-01-12 19:15:35,225 : Time 02h 33m 54s, episode reward 2.0214920043945312, episode length 1724, reward mean 2726.1118
+2019-01-12 19:16:43,431 : Time 02h 35m 02s, episode reward 4872.708258749635, episode length 10000, reward mean 2741.5549
+2019-01-12 19:17:51,640 : Time 02h 36m 10s, episode reward 5281.68499239624, episode length 10000, reward mean 2759.6987
+2019-01-12 19:19:01,718 : Time 02h 37m 21s, episode reward 5238.856188627797, episode length 10000, reward mean 2777.2814
+2019-01-12 19:20:11,659 : Time 02h 38m 31s, episode reward 5471.745670144017, episode length 10000, reward mean 2796.2565
+2019-01-12 19:21:20,595 : Time 02h 39m 39s, episode reward 5252.231381270714, episode length 10000, reward mean 2813.4312
+2019-01-12 19:22:29,095 : Time 02h 40m 48s, episode reward 5543.753141429013, episode length 10000, reward mean 2832.3917
+2019-01-12 19:23:38,332 : Time 02h 41m 57s, episode reward 5059.8121492683895, episode length 10000, reward mean 2847.7532
+2019-01-12 19:24:40,279 : Time 02h 42m 59s, episode reward 2.5746782422065735, episode length 1800, reward mean 2828.2657
+2019-01-12 19:25:42,350 : Time 02h 44m 01s, episode reward 2.110969662666321, episode length 1777, reward mean 2809.0402
+2019-01-12 19:26:51,021 : Time 02h 45m 10s, episode reward 5296.981170782659, episode length 10000, reward mean 2825.8506
+2019-01-12 19:27:52,710 : Time 02h 46m 12s, episode reward 2.1340015530586243, episode length 1752, reward mean 2806.8995
+2019-01-12 19:29:01,773 : Time 02h 47m 21s, episode reward 5410.377068675847, episode length 10000, reward mean 2824.2560
+2019-01-12 19:30:03,239 : Time 02h 48m 22s, episode reward 1.8991413712501526, episode length 1728, reward mean 2805.5649
+2019-01-12 19:31:11,774 : Time 02h 49m 31s, episode reward 5116.338926295259, episode length 10000, reward mean 2820.7673
+2019-01-12 19:32:22,040 : Time 02h 50m 41s, episode reward 5347.551017420137, episode length 10000, reward mean 2837.2823
+2019-01-12 19:33:23,671 : Time 02h 51m 43s, episode reward 2.21146696805954, episode length 1719, reward mean 2818.8727
+2019-01-12 19:34:32,982 : Time 02h 52m 52s, episode reward 5313.051410638607, episode length 10000, reward mean 2834.9642
+2019-01-12 19:35:35,920 : Time 02h 53m 55s, episode reward 2.0004396438598633, episode length 2621, reward mean 2816.8042
+2019-01-12 19:36:37,617 : Time 02h 54m 56s, episode reward 2.1988890767097473, episode length 1787, reward mean 2798.8767
+2019-01-12 19:37:46,531 : Time 02h 56m 05s, episode reward 5110.551344622392, episode length 10000, reward mean 2813.5076
+2019-01-12 19:38:56,224 : Time 02h 57m 15s, episode reward 5034.869573407928, episode length 10000, reward mean 2827.4784
+2019-01-12 19:40:05,013 : Time 02h 58m 24s, episode reward 5031.087033902913, episode length 10000, reward mean 2841.2510
+2019-01-12 19:41:14,316 : Time 02h 59m 33s, episode reward 5144.4706018406905, episode length 10000, reward mean 2855.5567
+2019-01-12 19:42:16,751 : Time 03h 00m 36s, episode reward 2.0387375354766846, episode length 2540, reward mean 2837.9424
+2019-01-12 19:43:26,072 : Time 03h 01m 45s, episode reward 4612.218804773125, episode length 10000, reward mean 2848.8275
+2019-01-12 19:44:27,723 : Time 03h 02m 47s, episode reward 3.380330741405487, episode length 1756, reward mean 2831.4772
+2019-01-12 19:45:37,781 : Time 03h 03m 57s, episode reward 5361.919617033718, episode length 10000, reward mean 2846.8132
+2019-01-12 19:46:47,436 : Time 03h 05m 06s, episode reward 5823.0341110708105, episode length 10000, reward mean 2864.7423
+2019-01-12 19:47:57,016 : Time 03h 06m 16s, episode reward 5119.136604417164, episode length 10000, reward mean 2878.2417
+2019-01-12 19:49:06,050 : Time 03h 07m 25s, episode reward 5378.266024527573, episode length 10000, reward mean 2893.1227
+2019-01-12 19:50:15,940 : Time 03h 08m 35s, episode reward 5403.7596296602205, episode length 10000, reward mean 2907.9786
+2019-01-12 19:51:17,658 : Time 03h 09m 37s, episode reward 2.0602031350135803, episode length 1733, reward mean 2890.8850
+2019-01-12 19:52:19,191 : Time 03h 10m 38s, episode reward 1.9097293615341187, episode length 1718, reward mean 2873.9904
+2019-01-12 19:53:27,673 : Time 03h 11m 47s, episode reward 5336.473536510952, episode length 10000, reward mean 2888.3071
+2019-01-12 19:54:37,326 : Time 03h 12m 56s, episode reward 5323.195040181157, episode length 10000, reward mean 2902.3816
+2019-01-12 19:55:39,144 : Time 03h 13m 58s, episode reward 1.6318576335906982, episode length 1710, reward mean 2885.7106
+2019-01-12 19:56:48,799 : Time 03h 15m 08s, episode reward 5238.605801623024, episode length 10000, reward mean 2899.1558
+2019-01-12 19:57:58,635 : Time 03h 16m 17s, episode reward 4600.207447570393, episode length 10000, reward mean 2908.8208
+2019-01-12 19:59:06,933 : Time 03h 17m 26s, episode reward 5119.870246244842, episode length 10000, reward mean 2921.3126
+2019-01-12 20:00:14,252 : Time 03h 18m 33s, episode reward 5069.111341822998, episode length 10000, reward mean 2933.3789
+2019-01-12 20:01:21,989 : Time 03h 19m 41s, episode reward 5035.453147524226, episode length 10000, reward mean 2945.1223
+2019-01-12 20:02:23,652 : Time 03h 20m 43s, episode reward 2.121236264705658, episode length 1690, reward mean 2928.7723
+2019-01-12 20:03:25,229 : Time 03h 21m 44s, episode reward 2.122453212738037, episode length 1679, reward mean 2912.6030
+2019-01-12 20:04:33,705 : Time 03h 22m 53s, episode reward 5279.512824046193, episode length 10000, reward mean 2925.6080

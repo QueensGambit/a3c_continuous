@@ -1,3 +1,6 @@
+## Added support for `quanser_robots/CartpoleSwingShort-v0` environment
+
+
 ## NEWLY ADDED A3G A NEW GPU/CPU ARCHITECTURE OF A3C FOR SUBSTANTIALLY ACCELERATED TRAINING!!
 *Training with A3G benefits training speed most when using larger models i.e using raw pixels for observations such as training in atari environments that have raw pixels for state representation*
 
@@ -20,7 +23,7 @@ Added trained model for BipedWalkerHardcore-v2
 
 ## Requirements
 
-- Python 2.7+
+- Python 3
 - Openai Gym
 - Pytorch
 - setproctitle
@@ -69,3 +72,16 @@ python gym_eval.py --env BipedalWalkerHardcore-v2 --num-episodes 100 --stack-fra
 
 
 ## README STILL UNDER CONSTRUCTION
+
+## Installing `pybox2d`for `BipedalWalker-v2`
+### Trouble shooting for error `Box2d won't find some RAND_LIMIT_swigconstant`
+* https://github.com/openai/gym/issues/100
+
+Building from source, this solution worked fine for me:
+ `azdoherty commented on Mar 7, 2017`
+```
+cd pybox2d/ 
+python setup.py clean
+python setup.py build
+python setup.py install
+```

@@ -101,7 +101,6 @@ def train(rank, args, shared_model, optimizer):
             value_loss = value_loss + 0.5 * advantage.pow(2)
 
             # Generalized Advantage Estimataion
-  #          print(player.rewards[i])
             delta_t = player.rewards[i] + args.gamma * \
                 player.values[i + 1].data - player.values[i].data
 
